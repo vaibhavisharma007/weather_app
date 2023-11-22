@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather app</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&family=Poppins:wght@300&family=Roboto+Condensed:ital,wght@1,300&family=Sacramento&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+    <div class="search">
+        <input type="text" placeholder="enter your text" id="search-box">
+        <img id="search_button" src=".//weather-app-img/images/search.png" alt="">
+        
+    </div>
+    <div class="error">
+        <p>Invalid city name</p>
+    </div>
+   <div class="content">
+    <div class="display">
+        <img class="temp-img" src=".//weather-app-img/images/clouds.png" alt="">
+            <h1 class="temp" >22°C</h1>
+            <h3 class="city">Bengaluru</h3>
+    </div>
+   <div class="display-more">
+    <div class="display-humid">
+        <img src="./weather-app-img/images/humidity.png" alt="">
+        <h2 class="humid">53%</h2>
+        <h4>Humidity</h4>
+    </div>
+    <div class="display-wind">
+        <img src="./weather-app-img/images/wind.png" alt="">
+        <h2 class="wind">5.66 km/h</h2>
+        <h4>Wind Speed</h4>
+    </div>
+   </div>
+   </div>
+
+   
+   
+</div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
